@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.geopoliticsmod.compat.xaero.mixin",
+  "plugin": "com.geopoliticsmod.compat.xaero.XaeroMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "WorldMapHighlighterRegistryMixin",
+    "MinimapHighlighterRegistryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
